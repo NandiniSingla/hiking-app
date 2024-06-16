@@ -1,0 +1,25 @@
+.places-to-visit {
+  padding: 40px;
+  background-color: #f0f0f0;
+}
+
+.places-to-visit h1 {
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.places {
+  display: flex;
+  justify-content: space-around;
+}
+
+.place {
+  text-align: center;
+}
+
+.place img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 40px;
+}

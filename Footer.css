@@ -1,0 +1,25 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 40px 20px;
+  background-color: #222;
+  color: #fff;
+  font-family: "Arial", sans-serif;
+}
+
+.footer-section {
+  max-width: 200px;
+  text-align: left;
+}
+
+.footer-section h4 {
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  color: #1bb1dc;
+}
+
+.footer-section p {
+  font-size: 0.9em;
+  line-height: 1.5;
+}

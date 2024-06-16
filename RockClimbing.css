@@ -1,0 +1,49 @@
+.rockclimbing {
+  padding: 40px 20px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.rockclimbing-container {
+  display: flex;
+  align-items: flex-start;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.rockclimbing-text {
+  flex: 1;
+  text-align: left;
+}
+
+.rockclimbing-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.price {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.image-and-paragraph {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: auto;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.image-and-paragraph .rockclimbing-image {
+  margin-bottom: 10px;
+}
+
+.image-and-paragraph p {
+  font-family: "Bradley Hand", cursive;
+  font-size: 1.6em;
+  color: rgb(231, 97, 2);
+}

@@ -1,0 +1,68 @@
+.header {
+  position: relative;
+  color: #fff;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnUJ87FGamdCXk4WG8l0xf7Mr5TCW-QcuCoQ&s")
+    no-repeat center center/cover;
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+  font-size: 1.5em;
+}
+
+.nav {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  max-width: 600px;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero-section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.hero-section h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.hero-section p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.hero-section button {
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #0a5469;
+
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
